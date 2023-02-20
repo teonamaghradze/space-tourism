@@ -16,7 +16,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/space-tourism" element={<Home />} />
         <Route
           path="/destination"
           element={
