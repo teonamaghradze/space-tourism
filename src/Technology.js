@@ -65,7 +65,7 @@ const Technology = ({ switchTab, handleClick }) => {
                       {tech.description}
                     </p>
                   </div>
-                  <img style={{ width: "90rem" }} alt="" src={techImages[i]} />
+                  <img style={{ width: "44rem" }} alt="" src={techImages[i]} />
                 </div>
               </div>
             );
