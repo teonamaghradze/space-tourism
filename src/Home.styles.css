@@ -1,0 +1,23 @@
+.btn-explore {
+  border: none;
+  background-color: rgb(255, 247, 247);
+  color: grey;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  max-width: 600px;
+  padding: 0px;
+  border-radius: 50%;
+  padding: 8rem 4rem;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  padding: 10rem 20rem;
+  background-image: url("./assets/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}

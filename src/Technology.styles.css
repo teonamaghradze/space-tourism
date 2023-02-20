@@ -1,0 +1,43 @@
+.tech-btns {
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 50%;
+  border-color: rgb(250, 237, 237);
+  color: white;
+  background-color: transparent;
+}
+
+.tech-btns:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-right: 2rem;
+}
+
+.technology-container {
+  padding: 14rem 5rem;
+  background-image: url("./assets/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.flex-content {
+  display: flex;
+  align-items: center;
+  /* gap: 3rem; */
+}
+
+.active-btn {
+  background-color: white;
+  color: black;
+}

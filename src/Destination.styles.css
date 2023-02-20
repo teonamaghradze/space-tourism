@@ -1,0 +1,73 @@
+.tab-list {
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.active {
+  border-bottom: 3px solid white;
+}
+.tab-list:hover {
+  cursor: pointer;
+}
+.content-flex {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.destination-container {
+  padding: 12rem 15rem;
+  background-image: url("./assets/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+.destination-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.planet-name {
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.planet-img {
+  width: 35rem;
+}
+
+.planet-description {
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.line {
+  border-bottom: 1px solid white;
+}
+
+.time-container {
+  margin-top: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.distance-font,
+.time-font {
+  font-size: 1.6rem;
+}
+
+.numbers,
+.travel {
+  font-size: 3rem;
+  margin-top: 0.6rem;
+}

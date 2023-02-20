@@ -1,0 +1,28 @@
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.6rem;
+}
+
+.header-container {
+  padding: 2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.233);
+  backdrop-filter: blur(5px);
+}
+
+.li {
+  text-decoration: none;
+  color: rgb(214, 210, 210);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.li:focus {
+  color: white;
+  border-bottom: 4px solid rgb(255, 251, 251);
+}
